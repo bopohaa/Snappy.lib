@@ -11,6 +11,8 @@
     <copyright>2019</copyright>
     <tags>snappy c# PInvoke wrapper google</tags>
     <repository type="git" url="https://github.com/bopohaa/Snappy.lib" />
+    <license type="expression">MIT</license>
+    <iconUrl>https://raw.githubusercontent.com/bopohaa/Snappy.lib/master/icon.png</iconUrl>
     <dependencies>
       <group targetFramework=".NETStandard2.0">
         <dependency id="libsnappy.redist" version="1.1.7" exclude="Build,Analyzers" />
