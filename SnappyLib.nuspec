@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SnappyLib</id>
+    <version>1.1.7</version>
+    <authors>Nikolay Vorobev</authors>
+    <owners>Nikolay Vorobev</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/bopohaa/Snappy.lib</projectUrl>
+    <description>This is the PInvoke wrapper over the implementation of the compression / decompression algorithm in the c ++ library from Google</description>
+    <copyright>2019</copyright>
+    <tags>snappy c# PInvoke wrapper google</tags>
+    <repository type="git" url="https://github.com/bopohaa/Snappy.lib" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="libsnappy.redist" version="1.1.7" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="SnappyLib\bin\Release\netstandard2.0\SnappyLib.dll" target="lib\netstandard2.0\SnappyLib.dll" />
+  </files>
+</package>

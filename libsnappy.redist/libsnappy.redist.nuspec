@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>libsnappy.redist</id>
+    <version>1.1.7</version>
+    <title>snappy - redistributable</title>
+    <authors>Nikolay Vorobev</authors>
+    <owners>Nikolay Vorobev</owners>
+    <projectUrl>https://github.com/google/snappy</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The Snappy C/C++ library - redistributable</description>
+    <summary>The Snappy C/C++ library</summary>
+    <releaseNotes>Release of snappy</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>native snappy C C++ nativepackage</tags>
+    <repository type="git" url="https://github.com/bopohaa/Snappy.lib/libsnappy.redist" />
+  </metadata>
+  <files>
+    <file src="**" exclude=".git\**"/>
+  </files>
+</package>

@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>SnappyLib</RootNamespace>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>Nikolay Vorobev</Authors>
+    <Copyright>2019</Copyright>
+    <PackageProjectUrl>https://github.com/bopohaa/Snappy.lib</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/bopohaa/Snappy.lib</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>snappy c# PInvoke wrapper google</PackageTags>
+    <Description>This is the PInvoke wrapper over the implementation of the compression / decompression algorithm in the c ++ library from Google</Description>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <AssemblyName>SnappyLib</AssemblyName>
+    <Version>1.1.7</Version>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="libsnappy.redist" Version="1.1.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
