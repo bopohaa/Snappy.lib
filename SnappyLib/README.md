@@ -1,8 +1,8 @@
-﻿#Snappy, a fast compressor/decompressor.
+# Snappy, a fast compressor/decompressor.
 
 This is the PInvoke wrapper over the implementation of the compression / decompression algorithm in the c ++ library from Google (https://github.com/google/snappy version 1.1.7).
 
-#Basic usage
+# Basic usage
 ```c#
 var source = "У попа была собака он её любил, она съела кусок мяса он её убил.";
 var sourceData = System.Text.Encoding.UTF8.GetBytes(source);
